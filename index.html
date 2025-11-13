@@ -7,19 +7,25 @@
     <style>
         body { text-align: center; font-family: sans-serif; }
         .container { max-width: 700px; margin: 0 auto; }
-        h1 { color: #2C3E50; } /* Dark Heading Color */
-        .intro { color: #5D6D7E; font-size: 1.1em; } /* Muted Intro Color */
+        h1 { color: #2C3E50; }
+        .intro { color: #5D6D7E; font-size: 1.1em; }
         img { max-width: 100%; height: auto; margin: 20px 0; }
         .video-container { margin: 20px 0; }
+        /* Ensures the iframe is responsive */
+        .video-container iframe {
+            max-width: 100%;
+            height: auto;
+            min-height: 315px; /* Minimum height for desktop viewing */
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>How to Tie a Tie</h1>
-        <p class="intro">Welcome to your easy guide to tying a tie! We'll walk you through the simple Four-in-Hand knot, perfect for any occasion.</p>
+        <p class="intro">Welcome to your easy guide to tying a tie! We'll walk you through the simple Four-in-Hand knot, perfect for any occasion with images and video tutorial at the bottom.</p>
         
         <h2>The Four-in-Hand Knot: Image Steps</h2>
-        <img src="YOUR_IMAGE_URL" alt="Step by step diagram for the Four-in-Hand tie knot">
+        <img src="Tie.jpg" alt="Step by step diagram for the Four-in-Hand tie knot">
         
         <h2>Watch the Video Tutorial</h2>
         <div class="video-container">
